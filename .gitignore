@@ -38,3 +38,5 @@ yarn-error.log
 
 # User specific bazel settings
 .bazelrc.user
+
+basics-assignment-2-start/.editorconfig
