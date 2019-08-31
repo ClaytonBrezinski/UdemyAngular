@@ -8,13 +8,7 @@ import {Component} from '@angular/core';
 export class AppComponent {
   username = '';
 
-  updateUsername(event: Event) {
-    this.username = (<HTMLInputElement>event.target).value;
-  }
-
   eraseUsername() {
-    if (!this.username || this.username.length === 0) {
-      this.username = '';
-    }
+    this.username = '';
   }
 }
