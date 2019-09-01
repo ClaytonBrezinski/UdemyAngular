@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { TimeStampComponentComponent } from './time-stamp-component/time-stamp-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TimeStampComponentComponent
   ],
   imports: [
     BrowserModule,
