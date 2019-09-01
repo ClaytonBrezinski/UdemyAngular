@@ -1,1 +1,1 @@
-<li [ngStyle]="blueBackground"> {{clickNumber}} happened at {{timeStamp}}</li>
+<li [ngStyle]="blueBackground" [ngClass]="{'white-text': clickNumber >= 5}"> {{clickNumber}} happened at {{timeStamp}}</li>
